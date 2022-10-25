@@ -30,3 +30,46 @@ pids
 node_modules/
 
 
+# spring
+springboot/*#
+springboot/*.iml
+springboot/*.ipr
+springboot/*.iws
+springboot/*.jar
+springboot/*.sw?
+springboot/*~
+springboot/.#*
+springboot/.*.md.html
+springboot/.DS_Store
+springboot/.attach_pid*
+springboot/.classpath
+springboot/.factorypath
+**/.gradle
+springboot/.idea
+springboot/.metadata
+springboot/.project
+springboot/.recommenders
+springboot/.settings
+springboot/.springBeans
+springboot/.vscode
+springboot/code
+springboot/MANIFEST.MF
+springboot/_site/
+springboot/activemq-data
+springboot/bin
+springboot/build
+!/**/src/**/bin
+!/**/src/**/build
+springboot/build.log
+springboot/dependency-reduced-pom.xml
+springboot/dump.rdb
+springboot/interpolated*.xml
+springboot/lib/
+springboot/manifest.yml
+springboot/out
+springboot/overridedb.*
+springboot/target
+springboot/.flattened-pom.xml
+springboot/secrets.yml
+springboot/.gradletasknamecache
+springboot/.sts4-cache
