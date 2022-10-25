@@ -8,7 +8,7 @@ import lombok.Getter;
 public class PostUserRes {
     private String username;
     private String email;
-    private String password;
+    private String token;
     private String bio;
     private String image;
 }

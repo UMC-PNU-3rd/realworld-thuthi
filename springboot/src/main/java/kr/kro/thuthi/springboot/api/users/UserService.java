@@ -1,7 +1,10 @@
 package kr.kro.thuthi.springboot.api.users;
 
+import kr.kro.thuthi.springboot.api.users.dto.PostUserLoginReq;
+import kr.kro.thuthi.springboot.api.users.dto.PostUserLoginRes;
 import kr.kro.thuthi.springboot.api.users.dto.PostUserReq;
 import kr.kro.thuthi.springboot.api.users.dto.PostUserRes;
+import kr.kro.thuthi.springboot.security.JwtTokenProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -28,7 +31,7 @@ public class UserService {
         return new PostUserRes(
                 user.getUsername(),
                 user.getEmail(),
-                user.getPassword(),
+                "token",
                 user.getBio(),
                 user.getImage()
         );
